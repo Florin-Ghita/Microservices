@@ -7,9 +7,13 @@
   <groupId>com.floringhita.microservices</groupId>
   <artifactId>microservices</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>microservices</name>
   <url>https://github.com/Florin-Ghita</url>
+  <modules>
+    <module>customer</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,7 +30,7 @@
         <artifactId>spring-boot-dependencies</artifactId>
         <version>${spring.boot.dependencies.version}</version>
         <scope>import</scope>
-        <type>pom</type>
+        <type>pom </type>
       </dependency>
     </dependencies>
   </dependencyManagement>
