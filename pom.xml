@@ -13,6 +13,7 @@
   <url>https://github.com/Florin-Ghita</url>
   <modules>
     <module>customer</module>
+    <module>fraud</module>
   </modules>
 
   <properties>
