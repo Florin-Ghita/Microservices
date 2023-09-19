@@ -1,2 +1,8 @@
-package com.floringhita.notification;public class NotificationRepository {
+package com.floringhita.notification;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotificationRepository extends JpaRepository {
+
+
 }
